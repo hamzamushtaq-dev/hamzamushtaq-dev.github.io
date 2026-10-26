@@ -20,7 +20,7 @@ grid.innerHTML = projects.map((p, i) => `
       <div class="p-img"><img src="assets/projects/${p.slug}.jpg" alt="${p.name} website developed by Hamza Mushtaq" loading="lazy" width="1200" height="750"></div>
     </div>
     <div class="p-body">
-      <div class="p-top"><span class="p-num">${String(i + 1).padStart(2, '0')}</span><span class="p-type">${p.type} · ${p.country}</span></div>
+      <div class="p-top"><span class="p-num">${String(i + 1).padStart(2, '0')}</span><span class="p-type">${p.type}</span></div>
       <h3>${p.name}<svg class="ico"><use href="#i-arrow"/></svg></h3>
       <p>${p.desc}</p>
       <span class="p-platform">${p.platform}</span>
