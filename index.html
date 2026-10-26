@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Hamza Mushtaq | Senior WordPress & Shopify Developer</title>
-<meta name="description" content="Senior WordPress & Shopify developer with 6+ years of experience and 150+ websites delivered for clients in Australia, the UK and Pakistan. Shopify, WooCommerce, Elementor, Figma to WordPress and speed optimization.">
+<meta name="description" content="Senior WordPress & Shopify developer with 6+ years of experience and 150+ websites delivered for businesses in Australia, the UK and Pakistan. Shopify, WooCommerce, Elementor, Figma to WordPress and speed optimization.">
 <meta name="keywords" content="WordPress developer, Shopify developer, WooCommerce developer, Elementor expert, Figma to WordPress, freelance web developer Pakistan, Hamza Mushtaq">
 <meta name="author" content="Hamza Mushtaq">
 <link rel="canonical" href="https://hamzamushtaq-dev.github.io/">
@@ -14,199 +14,365 @@
 <meta property="og:url" content="https://hamzamushtaq-dev.github.io/">
 <meta property="og:image" content="https://hamzamushtaq-dev.github.io/assets/og-image.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#0b0d12">
+<meta name="theme-color" content="#0B1324">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t;}catch(e){}</script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Person","name":"Hamza Mushtaq","jobTitle":"Senior WordPress & Shopify Developer","url":"https://hamzamushtaq-dev.github.io/","email":"mailto:hm136890@gmail.com","address":{"@type":"PostalAddress","addressLocality":"Islamabad","addressCountry":"PK"},"worksFor":{"@type":"Organization","name":"CodeAge Pvt Ltd"},"sameAs":["https://www.behance.net/hamzamushtaq2"],"knowsAbout":["WordPress","Shopify","WooCommerce","Elementor","Divi","Figma to WordPress","Website Speed Optimization"]}
+{"@context":"https://schema.org","@type":"Person","name":"Hamza Mushtaq","jobTitle":"Senior WordPress & Shopify Developer","image":"https://hamzamushtaq-dev.github.io/assets/hamza-avatar.jpg","url":"https://hamzamushtaq-dev.github.io/","email":"mailto:hm136890@gmail.com","telephone":"+923125705808","address":{"@type":"PostalAddress","addressLocality":"Islamabad","addressCountry":"PK"},"worksFor":{"@type":"Organization","name":"CodeAge Pvt Ltd"},"alumniOf":{"@type":"CollegeOrUniversity","name":"PMAS Arid Agriculture University"},"knowsAbout":["WordPress","Shopify","WooCommerce","Elementor","Divi","Figma to WordPress","Website Speed Optimization"]}
 </script>
 </head>
 <body>
 
-<header class="nav" id="top">
+<!-- SVG icon sprite -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-bag" viewBox="0 0 24 24"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></symbol>
+    <symbol id="i-cart" viewBox="0 0 24 24"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.6L23 6H6"/></symbol>
+    <symbol id="i-pen" viewBox="0 0 24 24"><path d="m12 19 7-7 3 3-7 7-3-3z"/><path d="m18 13-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="m2 2 7.6 7.6"/><circle cx="11" cy="11" r="2"/></symbol>
+    <symbol id="i-layout" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></symbol>
+    <symbol id="i-zap" viewBox="0 0 24 24"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></symbol>
+    <symbol id="i-server" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><path d="M6 6h.01M6 18h.01"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M7 17 17 7"/><path d="M7 7h10v10"/></symbol>
+    <symbol id="i-up" viewBox="0 0 24 24"><path d="m18 15-6-6-6 6"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 8.6 8.6 0 0 1-3.8-.9L3 21l1.9-5.2A8.4 8.4 0 0 1 12 3a8.4 8.4 0 0 1 9 8.5z"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></symbol>
+    <symbol id="i-trend" viewBox="0 0 24 24"><path d="m23 6-9.5 9.5-5-5L1 18"/><path d="M17 6h6v6"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></symbol>
+  </defs>
+</svg>
+
+<header class="nav" id="nav">
   <div class="wrap nav-inner">
-    <a href="#top" class="logo">Hamza<span>.</span></a>
-    <nav class="nav-links" id="navLinks">
+    <a href="#" class="logo js-top" aria-label="Hamza Mushtaq, back to top"><span class="logo-mark">HM</span><span class="logo-text">Hamza Mushtaq</span></a>
+    <nav class="nav-links" id="navLinks" aria-label="Main">
+      <a href="#about">About</a>
       <a href="#services">Services</a>
       <a href="#work">Work</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-      <a href="#contact" class="btn btn-sm">Hire Me</a>
+      <a href="#experience">Experience</a>
+      <a href="#faq">FAQ</a>
     </nav>
-    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+    <div class="nav-actions">
+      <button class="icon-btn" id="themeBtn" aria-label="Toggle dark mode">
+        <svg class="ico sun"><use href="#i-sun"/></svg><svg class="ico moon"><use href="#i-moon"/></svg>
+      </button>
+      <a href="#contact" class="btn btn-dark btn-sm hide-sm">Hire Me</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks"><span></span><span></span><span></span></button>
+    </div>
   </div>
 </header>
 
-<main>
+<main id="main">
+
   <!-- HERO -->
   <section class="hero">
     <div class="wrap hero-grid">
-      <div>
-        <p class="pill"><span class="dot"></span> Available for freelance projects</p>
-        <h1>I build fast websites &amp; online stores that <span class="grad">turn visitors into customers.</span></h1>
-        <p class="lead">I'm Hamza Mushtaq, a Senior WordPress &amp; Shopify Developer from Islamabad, Pakistan. For 6+ years I've built websites and e-commerce stores for businesses in Australia, the UK and Pakistan.</p>
-        <div class="hero-cta">
-          <a href="#contact" class="btn">Start a Project</a>
-          <a href="#work" class="btn btn-ghost">View My Work</a>
+      <div class="hero-copy reveal">
+        <p class="status"><span class="pulse"></span> Available for new projects</p>
+        <h1>WordPress &amp; Shopify websites that <span class="mark">win clients</span> and drive sales.</h1>
+        <p class="lead">I'm Hamza, a Senior WordPress &amp; Shopify Developer with 6+ years of experience. I build fast, conversion-focused websites and online stores for businesses in Australia, the UK and Pakistan.</p>
+        <div class="cta-row">
+          <a href="#contact" class="btn btn-primary">Start Your Project</a>
+          <a href="#work" class="btn btn-outline">View My Work</a>
         </div>
-        <div class="stats">
-          <div><strong>6+</strong><span>Years experience</span></div>
-          <div><strong>150+</strong><span>Websites delivered</span></div>
-          <div><strong>3</strong><span>Countries served</span></div>
-        </div>
+        <ul class="hero-points">
+          <li><svg class="ico"><use href="#i-check"/></svg>Pixel-perfect Figma to WordPress</li>
+          <li><svg class="ico"><use href="#i-check"/></svg>Speed &amp; SEO-ready builds</li>
+          <li><svg class="ico"><use href="#i-check"/></svg>Support after launch</li>
+        </ul>
       </div>
-      <div class="hero-visual" aria-hidden="true">
-        <div class="shot shot-a"><img src="assets/projects/e-ozzie.jpg" alt=""></div>
-        <div class="shot shot-b"><img src="assets/projects/spinpod360.jpg" alt=""></div>
-        <div class="shot shot-c"><img src="assets/projects/power-pillar.jpg" alt=""></div>
+
+      <div class="hero-visual reveal">
+        <div class="portrait">
+          <img src="assets/hamza.webp" alt="Hamza Mushtaq, WordPress and Shopify developer" width="500" height="500" fetchpriority="high">
+        </div>
+        <div class="float-card fc-1">
+          <strong>150+</strong><span>Websites delivered</span>
+        </div>
+        <div class="float-card fc-2">
+          <span class="fc-ico"><svg class="ico"><use href="#i-shield"/></svg></span>
+          <div><strong>6+ Years</strong><span>Experience</span></div>
+        </div>
+        <div class="float-tag ft-1">WordPress</div>
+        <div class="float-tag ft-2">Shopify</div>
+        <div class="float-tag ft-3">WooCommerce</div>
       </div>
     </div>
-    <div class="wrap logos">
-      <span>Trusted by</span>
-      <ul>
-        <li>E-Ozzie</li><li>Powerpillar</li><li>Scope DI</li><li>TeamLife</li><li>SpinPod 360</li><li>Champion Sports</li>
-      </ul>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee" aria-label="Platforms and tools">
+    <div class="marquee-track">
+      <span>WordPress</span><span>Shopify</span><span>WooCommerce</span><span>Elementor Pro</span><span>Divi</span><span>Gutenberg</span><span>WPBakery</span><span>Figma</span><span>GoHighLevel</span><span>Wix</span><span>Squarespace</span>
+      <span aria-hidden="true">WordPress</span><span aria-hidden="true">Shopify</span><span aria-hidden="true">WooCommerce</span><span aria-hidden="true">Elementor Pro</span><span aria-hidden="true">Divi</span><span aria-hidden="true">Gutenberg</span><span aria-hidden="true">WPBakery</span><span aria-hidden="true">Figma</span><span aria-hidden="true">GoHighLevel</span><span aria-hidden="true">Wix</span><span aria-hidden="true">Squarespace</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="wrap">
+      <div class="split reveal">
+        <div>
+          <p class="eyebrow">About Me</p>
+          <h2>A developer who thinks about <span class="mark">your business</span>, not just code.</h2>
+        </div>
+        <div class="prose">
+          <p>I started at <strong>CodeAge Pvt Ltd</strong> as an intern and grew into a Senior Developer role. Today I handle complete website projects, from planning and design implementation to development, testing and launch.</p>
+          <p>I work closely with SEO teams to build sites that load fast, rank well and turn visitors into leads and sales. Clients work with me because I communicate clearly, deliver on time and care about results.</p>
+          <a href="assets/Hamza-Mushtaq-CV.pdf" class="link-btn" download><svg class="ico"><use href="#i-download"/></svg>Download my CV</a>
+        </div>
+      </div>
+      <div class="stats reveal">
+        <div class="stat"><strong data-count="6">6</strong><sup>+</sup><span>Years of experience</span></div>
+        <div class="stat"><strong data-count="150">150</strong><sup>+</sup><span>Websites &amp; stores delivered</span></div>
+        <div class="stat"><strong data-count="3">3</strong><span>Countries served: AU, UK &amp; PK</span></div>
+        <div class="stat"><strong data-count="10">10</strong><sup>+</sup><span>Platforms &amp; builders mastered</span></div>
+      </div>
     </div>
   </section>
 
   <!-- SERVICES -->
-  <section class="section" id="services">
+  <section class="section tint" id="services">
     <div class="wrap">
-      <p class="eyebrow">Services</p>
-      <h2>What I can build for you</h2>
-      <div class="cards">
-        <article class="card">
-          <div class="ic">🛍️</div>
+      <div class="head reveal">
+        <p class="eyebrow">Services</p>
+        <h2>Everything you need for a website that performs</h2>
+        <p class="sub">From a single landing page to a full online store, I handle the build from start to finish.</p>
+      </div>
+      <div class="services">
+        <article class="service reveal">
+          <span class="s-ico"><svg class="ico"><use href="#i-bag"/></svg></span>
           <h3>Shopify Store Development</h3>
-          <p>Theme setup and customization, product and collection setup, payments and shipping. Your store is ready to sell from day one.</p>
+          <p>Theme setup and customization, products, collections, payments and shipping. Your store is ready to sell from day one.</p>
         </article>
-        <article class="card">
-          <div class="ic">🛒</div>
+        <article class="service reveal">
+          <span class="s-ico"><svg class="ico"><use href="#i-cart"/></svg></span>
           <h3>WooCommerce Stores</h3>
-          <p>Complete WordPress online stores with catalog, cart, checkout, payment gateways and order emails, all easy to manage.</p>
+          <p>Complete WordPress e-commerce with a product catalog, cart, checkout, payment gateways and order emails.</p>
         </article>
-        <article class="card">
-          <div class="ic">🎨</div>
+        <article class="service reveal">
+          <span class="s-ico"><svg class="ico"><use href="#i-pen"/></svg></span>
           <h3>Figma to WordPress</h3>
-          <p>Pixel-perfect, fully responsive WordPress websites built from your Figma, XD or PSD designs.</p>
+          <p>Your Figma, XD or PSD designs turned into pixel-perfect, fully responsive websites that are easy to edit.</p>
         </article>
-        <article class="card">
-          <div class="ic">🧩</div>
-          <h3>Elementor &amp; Divi Websites</h3>
-          <p>Business, landing page and portfolio websites built with Elementor Pro, Divi, Gutenberg or WPBakery.</p>
+        <article class="service reveal">
+          <span class="s-ico"><svg class="ico"><use href="#i-layout"/></svg></span>
+          <h3>Business &amp; Landing Websites</h3>
+          <p>Lead-generating business sites and landing pages with Elementor Pro, Divi, Gutenberg or WPBakery.</p>
         </article>
-        <article class="card">
-          <div class="ic">⚡</div>
+        <article class="service reveal">
+          <span class="s-ico"><svg class="ico"><use href="#i-zap"/></svg></span>
           <h3>Speed Optimization</h3>
-          <p>Faster load times and better Core Web Vitals through image, caching and script optimization.</p>
+          <p>Better PageSpeed and Core Web Vitals through image, caching and script optimization, because faster sites sell more.</p>
         </article>
-        <article class="card">
-          <div class="ic">🚚</div>
+        <article class="service reveal">
+          <span class="s-ico"><svg class="ico"><use href="#i-server"/></svg></span>
           <h3>Migration &amp; Hosting</h3>
-          <p>Safe website migrations, cPanel and hosting setup, DNS, SSL and email, with no data loss.</p>
+          <p>Safe website migrations, cPanel and hosting setup, DNS, SSL and business email, with zero data loss.</p>
         </article>
       </div>
     </div>
   </section>
 
   <!-- WORK -->
-  <section class="section alt" id="work">
+  <section class="section" id="work">
     <div class="wrap">
-      <p class="eyebrow">Selected Work</p>
-      <h2>Recent client projects</h2>
-      <div class="filters" role="tablist">
-        <button class="chip active" data-filter="all">All</button>
-        <button class="chip" data-filter="ecommerce">E-Commerce</button>
-        <button class="chip" data-filter="business">Business</button>
-        <button class="chip" data-filter="shopify">Shopify</button>
-        <button class="chip" data-filter="woocommerce">WooCommerce</button>
+      <div class="head head-row reveal">
+        <div>
+          <p class="eyebrow">Selected Work</p>
+          <h2>Recent client projects</h2>
+        </div>
+        <div class="filters" role="group" aria-label="Filter projects">
+          <button class="chip active" data-filter="all" aria-pressed="true">All</button>
+          <button class="chip" data-filter="ecommerce" aria-pressed="false">E-Commerce</button>
+          <button class="chip" data-filter="business" aria-pressed="false">Business</button>
+        </div>
       </div>
-      <div class="grid" id="projects"></div>
+      <div class="projects" id="projects"></div>
     </div>
   </section>
 
   <!-- PROCESS -->
-  <section class="section" id="process">
+  <section class="section dark" id="process">
     <div class="wrap">
-      <p class="eyebrow">How I Work</p>
-      <h2>From idea to launch</h2>
+      <div class="head reveal">
+        <p class="eyebrow">How I Work</p>
+        <h2>A simple, transparent process</h2>
+        <p class="sub">You always know what's happening and what comes next.</p>
+      </div>
       <ol class="steps">
-        <li><span>01</span><h3>Plan</h3><p>We discuss your goals, pages, features and timeline.</p></li>
-        <li><span>02</span><h3>Build</h3><p>I develop your site from your design (or a ready theme) with regular updates.</p></li>
-        <li><span>03</span><h3>Test</h3><p>I check every device, browser, form and checkout, and make sure it loads fast.</p></li>
-        <li><span>04</span><h3>Launch</h3><p>Go live on your hosting, with support after launch.</p></li>
+        <li class="reveal"><span class="num">01</span><h3>Discovery</h3><p>We discuss your goals, pages, features, budget and timeline.</p></li>
+        <li class="reveal"><span class="num">02</span><h3>Build</h3><p>I develop your site from your design or a premium theme, with regular progress updates.</p></li>
+        <li class="reveal"><span class="num">03</span><h3>Test &amp; Optimize</h3><p>Every device, browser, form and checkout is tested and tuned for speed.</p></li>
+        <li class="reveal"><span class="num">04</span><h3>Launch &amp; Support</h3><p>Go live on your hosting, with a handover and support after launch.</p></li>
       </ol>
     </div>
   </section>
 
-  <!-- ABOUT -->
-  <section class="section alt" id="about">
-    <div class="wrap about-grid">
-      <div>
-        <p class="eyebrow">About Me</p>
-        <h2>Hi, I'm Hamza 👋</h2>
-        <p>I started at <strong>CodeAge Pvt Ltd</strong> as an intern and grew into a Senior Developer role. Today I handle complete website projects, from planning and design implementation to development, testing and launch.</p>
-        <p>I work closely with SEO teams to build sites that load fast and convert visitors into leads and sales. I communicate clearly and deliver on time, which is why clients across Australia, the UK and Pakistan keep coming back.</p>
-        <div class="hero-cta">
-          <a href="assets/Hamza-Mushtaq-CV.pdf" class="btn" download>Download CV</a>
-          <a href="https://www.behance.net/hamzamushtaq2" class="btn btn-ghost" target="_blank" rel="noopener">Behance Profile</a>
-        </div>
-      </div>
-      <div>
+  <!-- EXPERIENCE + SKILLS -->
+  <section class="section" id="experience">
+    <div class="wrap exp-grid">
+      <div class="reveal">
+        <p class="eyebrow">Experience</p>
+        <h2>Where I've built my career</h2>
         <div class="timeline">
-          <div class="tl-item">
+          <div class="tl">
             <span class="tl-date">09/2020 – Present</span>
             <h3>Senior WordPress &amp; Shopify Developer</h3>
-            <p>CodeAge Pvt Ltd · Rawalpindi</p>
+            <p class="tl-org">CodeAge Pvt Ltd · Rawalpindi</p>
+            <ul>
+              <li>Build websites from scratch to deployment: planning, design implementation, development, testing and launch.</li>
+              <li>Develop custom WordPress, WooCommerce and Shopify sites from Figma designs.</li>
+              <li>Optimize site speed and improve conversions, working alongside the SEO team.</li>
+              <li>Manage hosting setup, cPanel and full website migrations.</li>
+              <li>Joined as an intern and grew into a senior role.</li>
+            </ul>
           </div>
-          <div class="tl-item">
+          <div class="tl">
             <span class="tl-date">2016 – 2020</span>
             <h3>BS Information Technology</h3>
-            <p>PMAS Arid Agriculture University, Rawalpindi</p>
+            <p class="tl-org">PMAS Arid Agriculture University, Rawalpindi</p>
           </div>
         </div>
-        <h3 class="skills-title">Tools &amp; Skills</h3>
-        <ul class="tags">
-          <li>WordPress</li><li>Shopify</li><li>WooCommerce</li><li>Elementor Pro</li><li>Divi</li><li>Gutenberg</li><li>WPBakery</li><li>Astra</li><li>Figma</li><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Speed Optimization</li><li>cPanel</li><li>Migrations</li><li>GoHighLevel</li><li>Wix</li><li>Squarespace</li>
-        </ul>
+      </div>
+      <div class="reveal">
+        <p class="eyebrow">Toolkit</p>
+        <h2>Tools I work with</h2>
+        <div class="skill-groups">
+          <div class="sg"><h3>E-Commerce</h3><ul class="tags"><li>Shopify</li><li>WooCommerce</li></ul></div>
+          <div class="sg"><h3>WordPress &amp; Builders</h3><ul class="tags"><li>Elementor Pro</li><li>Divi</li><li>Gutenberg</li><li>WPBakery</li><li>Astra</li><li>Hello Elementor</li></ul></div>
+          <div class="sg"><h3>Front-End</h3><ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Responsive Design</li><li>Figma</li></ul></div>
+          <div class="sg"><h3>Performance &amp; Hosting</h3><ul class="tags"><li>Speed Optimization</li><li>cPanel</li><li>Hosting Setup</li><li>Migrations</li></ul></div>
+          <div class="sg"><h3>Other Platforms</h3><ul class="tags"><li>GoHighLevel</li><li>Wix</li><li>Squarespace</li></ul></div>
+          <div class="sg"><h3>Languages</h3><ul class="tags"><li>English: Professional</li><li>Urdu: Native</li></ul></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY ME -->
+  <section class="section tint" id="why">
+    <div class="wrap">
+      <div class="head reveal">
+        <p class="eyebrow">Why Work With Me</p>
+        <h2>What you can expect</h2>
+      </div>
+      <div class="why">
+        <div class="why-item reveal"><span class="s-ico"><svg class="ico"><use href="#i-chat"/></svg></span><h3>Clear communication</h3><p>Regular updates in plain language, and quick replies across time zones.</p></div>
+        <div class="why-item reveal"><span class="s-ico"><svg class="ico"><use href="#i-clock"/></svg></span><h3>On-time delivery</h3><p>Realistic timelines agreed upfront, and I stick to them.</p></div>
+        <div class="why-item reveal"><span class="s-ico"><svg class="ico"><use href="#i-trend"/></svg></span><h3>Built to convert</h3><p>Fast load times, clean structure and clear calls to action.</p></div>
+        <div class="why-item reveal"><span class="s-ico"><svg class="ico"><use href="#i-shield"/></svg></span><h3>Easy to manage</h3><p>Sites you can update yourself, with support after launch.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="wrap faq-grid">
+      <div class="reveal">
+        <p class="eyebrow">FAQ</p>
+        <h2>Common questions</h2>
+        <p class="sub">Have another question? <a href="#contact" class="text-link">Just ask me.</a></p>
+      </div>
+      <div class="faq reveal">
+        <details>
+          <summary>Which platforms do you work with?</summary>
+          <p>Mainly WordPress (Elementor Pro, Divi, Gutenberg, WPBakery), WooCommerce and Shopify. I also work with GoHighLevel, Wix and Squarespace.</p>
+        </details>
+        <details>
+          <summary>Can you build my website from a Figma design?</summary>
+          <p>Yes. Figma to WordPress is one of my core services. Send me your Figma, XD or PSD file and I'll build a pixel-perfect, responsive website from it.</p>
+        </details>
+        <details>
+          <summary>Do you work with international clients?</summary>
+          <p>Yes. Most of my clients are in Australia and the UK. I work remotely and adjust my availability for your time zone.</p>
+        </details>
+        <details>
+          <summary>Will my website be mobile-friendly and fast?</summary>
+          <p>Every site I build is fully responsive and tested on mobile, tablet and desktop. Speed optimization is part of my process, not an extra.</p>
+        </details>
+        <details>
+          <summary>How long does a website take?</summary>
+          <p>It depends on scope. A landing page can be ready within a week, while a full business website or online store usually takes 1–3 weeks. You'll get a clear timeline before we start.</p>
+        </details>
+        <details>
+          <summary>What do you need from me to get started?</summary>
+          <p>A short brief about your business and goals, your design or reference websites, and your content (text, logo, images). I'll guide you through the rest.</p>
+        </details>
       </div>
     </div>
   </section>
 
   <!-- CONTACT -->
-  <section class="section" id="contact">
-    <div class="wrap">
-      <div class="contact-box">
+  <section class="section contact" id="contact">
+    <div class="wrap contact-grid">
+      <div class="reveal">
         <p class="eyebrow">Contact</p>
-        <h2>Have a project in mind?</h2>
-        <p class="lead">Tell me about your website or store. I will get back to you as soon as possible.</p>
-        <div class="contact-links">
-          <a class="contact-item" href="mailto:hm136890@gmail.com?subject=Website%20Project%20Inquiry">
-            <span>✉️</span><div><small>Email</small>hm136890@gmail.com</div>
-          </a>
-          <a class="contact-item" href="https://wa.me/923125705808?text=Hi%20Hamza%2C%20I%20saw%20your%20portfolio%20and%20want%20to%20discuss%20a%20website%20project." target="_blank" rel="noopener">
-            <span>💬</span><div><small>WhatsApp</small>+92 312 5705808</div>
-          </a>
-          <a class="contact-item" href="https://www.behance.net/hamzamushtaq2" target="_blank" rel="noopener">
-            <span>🅱️</span><div><small>Behance</small>behance.net/hamzamushtaq2</div>
-          </a>
-        </div>
+        <h2>Let's build something great together</h2>
+        <p class="sub">Tell me about your project, and I'll get back to you with ideas, a timeline and a quote.</p>
+        <ul class="contact-list">
+          <li><span class="c-ico"><svg class="ico"><use href="#i-mail"/></svg></span><div><small>Email</small><a href="mailto:hm136890@gmail.com">hm136890@gmail.com</a></div></li>
+          <li><span class="c-ico"><svg class="ico"><use href="#i-phone"/></svg></span><div><small>WhatsApp / Phone</small><a href="https://wa.me/923125705808" target="_blank" rel="noopener">+92 312 5705808</a></div></li>
+          <li><span class="c-ico"><svg class="ico"><use href="#i-pin"/></svg></span><div><small>Location</small>Islamabad, Pakistan · Working worldwide</div></li>
+        </ul>
       </div>
+      <form class="form reveal" id="contactForm" novalidate>
+        <div class="row">
+          <label>Your name<input name="name" required autocomplete="name" placeholder="John Smith"></label>
+          <label>Email<input name="email" type="email" autocomplete="email" placeholder="john@company.com"></label>
+        </div>
+        <label>Project type
+          <select name="type">
+            <option>Shopify store</option>
+            <option>WooCommerce store</option>
+            <option>WordPress business website</option>
+            <option>Figma to WordPress</option>
+            <option>Speed optimization</option>
+            <option>Website migration</option>
+            <option>Other</option>
+          </select>
+        </label>
+        <label>Project details<textarea name="message" rows="5" required placeholder="Tell me about your business, the pages or features you need, and your timeline."></textarea></label>
+        <p class="form-error" id="formError" role="alert"></p>
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary" data-via="whatsapp"><svg class="ico"><use href="#i-chat"/></svg>Send on WhatsApp</button>
+          <button type="submit" class="btn btn-outline" data-via="email"><svg class="ico"><use href="#i-mail"/></svg>Send by Email</button>
+        </div>
+      </form>
     </div>
   </section>
 </main>
 
 <footer class="footer">
-  <div class="wrap">
-    <p>© <span id="year"></span> Hamza Mushtaq · WordPress &amp; Shopify Developer · Islamabad, Pakistan</p>
-    <a href="#top">Back to top ↑</a>
+  <div class="wrap footer-inner">
+    <div>
+      <a href="#" class="logo js-top"><span class="logo-mark">HM</span><span class="logo-text">Hamza Mushtaq</span></a>
+      <p>Senior WordPress &amp; Shopify Developer, building websites that grow businesses.</p>
+    </div>
+    <nav aria-label="Footer">
+      <a href="#about">About</a><a href="#services">Services</a><a href="#work">Work</a><a href="#contact">Contact</a>
+    </nav>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> Hamza Mushtaq. All rights reserved.</span>
+      <a href="#" class="js-top back-top">Back to top <svg class="ico"><use href="#i-up"/></svg></a>
+    </div>
   </div>
 </footer>
 
-<a class="wa-float" href="https://wa.me/923125705808" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">💬</a>
+<button class="to-top js-top" id="toTop" aria-label="Back to top"><svg class="ico"><use href="#i-up"/></svg></button>
+<a class="wa-float" href="https://wa.me/923125705808" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 32 32" width="28" height="28" fill="#fff" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.7a10.7 10.7 0 0 1-5.5-1.5l-.4-.2-3.9 1 1-3.8-.2-.4A10.7 10.7 0 1 1 16 26.7zm5.9-8c-.3-.2-1.9-1-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7 0a8.8 8.8 0 0 1-4.4-3.8c-.3-.6.3-.5.9-1.7.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.7 3.7 0 0 0-1.1 2.7 6.5 6.5 0 0 0 1.3 3.4 14.8 14.8 0 0 0 5.7 5c2.1.9 2.9 1 4 .8a3.3 3.3 0 0 0 2.2-1.5 2.7 2.7 0 0 0 .2-1.5c-.1-.2-.3-.3-.6-.4z"/></svg>
+</a>
 
 <script src="script.js"></script>
 </body>
