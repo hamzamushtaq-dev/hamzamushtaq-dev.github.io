@@ -1,37 +1,4 @@
-const projects = [
-  { slug: 'scope-di', name: 'Scope DI', url: 'https://scopedi.com.au', country: 'Australia', platform: 'WordPress · Elementor', cat: 'business', type: 'Logistics', desc: 'Corporate website for an Australia-wide logistics network covering road, air and warehousing freight.' },
-  { slug: 'champion-sports', name: 'Champion Sports', url: 'https://championsports.pk', country: 'Pakistan', platform: 'WooCommerce', cat: 'ecommerce', type: 'Sports Retail', desc: 'Online store for cricket equipment and sportswear, with custom team wear quotes and worldwide shipping.' },
-  { slug: 'teamlife', name: 'TeamLife', url: 'https://teamlife.au', country: 'Australia', platform: 'WordPress · Elementor', cat: 'business', type: 'SaaS / Wellbeing', desc: 'Product website for a workplace psychosocial safety platform, built to explain the system and capture leads.' },
-  { slug: 'rebellious-menswear', name: 'Rebellious Menswear', url: 'https://rebelliousmenswear.com', country: 'Pakistan', platform: 'WooCommerce', cat: 'ecommerce', type: 'Fashion', desc: 'Fashion store for men\'s eastern wear, with collection navigation and a mobile-first shopping experience.' },
-  { slug: 'secure-roofing', name: 'Secure Roofing', url: 'https://secureroofing.com.au', country: 'Australia', platform: 'WordPress · Elementor', cat: 'business', type: 'Trades', desc: 'Lead-generation website for a roof restoration company, with service areas and click-to-call.' },
-  { slug: 'crafted-room-rentals', name: 'Crafted Room Rentals', url: 'https://craftedroomrentals.com.au', country: 'Australia', platform: 'WordPress · Elementor', cat: 'business', type: 'Real Estate', desc: 'Elegant landing website for a guaranteed-rent property leasing business.' },
-  { slug: 'saafnsafe', name: 'SaafnSafe', url: 'https://saafnsafe.com', country: 'Pakistan', platform: 'WooCommerce', cat: 'ecommerce', type: 'FMCG', desc: 'Online store for household cleaning products, with delivery across Pakistan.' },
-  { slug: 'sea-wolves-howl', name: 'Sea Wolves Howl', url: 'https://seawolveshowl.au', country: 'Australia', platform: 'WordPress · Elementor', cat: 'business', type: 'Arts & Events', desc: 'Website for a live performance project, with tour dates, artist profiles and a fundraiser.' },
-  { slug: 'fixo', name: 'Fixo by SRC', url: 'https://fixo.com.pk', country: 'Pakistan', platform: 'WooCommerce', cat: 'ecommerce', type: 'Industrial', desc: 'Product catalog and online store for a brand of adhesive solutions.' },
-  { slug: 'chrysten4fkn', name: 'Chrysten Abraham', url: 'https://chrysten4fkn.com', country: 'Australia', platform: 'WordPress · Elementor', cat: 'business', type: 'Campaign', desc: 'Campaign website for an independent candidate, with policies, a volunteer sign-up and donations.' },
-  { slug: 'rapture-play', name: 'Rapture Play', url: 'https://raptureplay.com', country: 'Global', platform: 'WordPress · Divi', cat: 'business', type: 'Game Studio', desc: 'Playful website for a game development studio, showcasing its latest games.' },
-];
-
 const grid = document.getElementById('projects');
-grid.innerHTML = projects.map((p, i) => `
-  <a class="project reveal" href="${p.url}" target="_blank" rel="noopener" data-cat="${p.cat}">
-    <div class="p-thumb">
-      <div class="p-bar"><i></i><i></i><i></i><span>${p.url.replace('https://', '')}</span></div>
-      <div class="p-img"><img src="assets/projects/${p.slug}.jpg" alt="${p.name} website developed by Hamza Mushtaq" loading="lazy" width="1200" height="750"></div>
-    </div>
-    <div class="p-body">
-      <div class="p-top"><span class="p-num">${String(i + 1).padStart(2, '0')}</span><span class="p-type">${p.type}</span></div>
-      <h3>${p.name}<svg class="ico"><use href="#i-arrow"/></svg></h3>
-      <p>${p.desc}</p>
-      <span class="p-platform">${p.platform}</span>
-    </div>
-  </a>`).join('') + `
-  <a class="project project-cta reveal" href="#contact" data-cat="all">
-    <span class="s-ico"><svg class="ico"><use href="#i-arrow"/></svg></span>
-    <h3>Your project could be next</h3>
-    <p>Need a website or online store like these? Let's talk about what you want to build.</p>
-    <span class="btn btn-primary btn-sm">Start a Project</span>
-  </a>`;
 
 // Project filters
 document.querySelectorAll('.chip').forEach(chip => {
