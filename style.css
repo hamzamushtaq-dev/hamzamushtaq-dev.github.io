@@ -257,10 +257,8 @@ h2 { font-size: clamp(1.9rem, 3.4vw, 2.8rem); font-weight: 800; }
 .footer-inner { display: grid; grid-template-columns: 1fr auto; gap: 28px 40px; align-items: start; }
 .footer-inner > div:first-child p { margin-top: 14px; max-width: 360px; font-size: .94rem; }
 .footer nav { display: flex; flex-wrap: wrap; gap: 26px; font-weight: 500; }
-.footer nav a:hover, .back-top:hover { color: var(--brand); }
+.footer nav a:hover { color: var(--brand); }
 .footer-bottom { grid-column: 1 / -1; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; border-top: 1px solid rgba(255, 255, 255, .08); padding-top: 24px; font-size: .88rem; }
-.back-top { display: inline-flex; align-items: center; gap: 6px; font-weight: 600; color: #fff; }
-.back-top .ico { width: 16px; height: 16px; }
 
 /* Floating buttons */
 .to-top { position: fixed; right: 24px; bottom: 24px; width: 46px; height: 46px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); display: grid; place-items: center; cursor: pointer; box-shadow: var(--shadow-lg); opacity: 0; visibility: hidden; transform: translateY(10px); transition: opacity .3s, transform .3s, visibility .3s; z-index: 60; }
