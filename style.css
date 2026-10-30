@@ -244,16 +244,11 @@ h2 { font-size: clamp(1.9rem, 3.4vw, 2.8rem); font-weight: 800; }
 .contact .sub { color: var(--on-navy); }
 .contact .eyebrow { color: #9aa3b5; }
 .contact-grid { display: grid; grid-template-columns: 1fr 1.1fr; gap: 64px; align-items: start; position: relative; }
-.contact-list { list-style: none; display: grid; gap: 14px; margin-top: 36px; }
+.contact-list { list-style: none; display: grid; gap: 14px; padding: 30px; border-radius: 22px; background: rgba(255, 255, 255, .04); border: 1px solid rgba(255, 255, 255, .08); }
 .contact-list li { display: flex; align-items: center; gap: 16px; color: #fff; font-weight: 500; overflow-wrap: anywhere; }
 .contact-list small { display: block; color: #9aa3b5; font-size: .78rem; font-weight: 500; }
 .contact-list a:hover { color: var(--brand); }
 .c-ico { width: 48px; height: 48px; border-radius: 12px; background: rgba(255, 255, 255, .06); border: 1px solid rgba(255, 255, 255, .1); color: var(--brand); display: grid; place-items: center; flex-shrink: 0; }
-.contact-card { background: var(--surface); border-radius: 22px; padding: 38px 34px; box-shadow: var(--shadow-lg); color: var(--text); }
-.contact-card h3 { color: var(--ink); font-size: 1.45rem; }
-.contact-card > p { margin: 8px 0 26px; color: var(--muted); }
-.contact-actions { display: grid; gap: 12px; }
-.contact-actions .btn { width: 100%; justify-content: center; }
 
 /* Footer */
 .footer { background: var(--navy); color: var(--on-navy); border-top: 1px solid rgba(255, 255, 255, .08); padding: 56px 0 28px; }
@@ -268,10 +263,8 @@ h2 { font-size: clamp(1.9rem, 3.4vw, 2.8rem); font-weight: 800; }
 .back-top .ico { width: 16px; height: 16px; }
 
 /* Floating buttons */
-.to-top { position: fixed; right: 24px; bottom: 96px; width: 46px; height: 46px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); display: grid; place-items: center; cursor: pointer; box-shadow: var(--shadow-lg); opacity: 0; visibility: hidden; transform: translateY(10px); transition: opacity .3s, transform .3s, visibility .3s; z-index: 60; }
+.to-top { position: fixed; right: 24px; bottom: 24px; width: 46px; height: 46px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); display: grid; place-items: center; cursor: pointer; box-shadow: var(--shadow-lg); opacity: 0; visibility: hidden; transform: translateY(10px); transition: opacity .3s, transform .3s, visibility .3s; z-index: 60; }
 .to-top.show { opacity: 1; visibility: visible; transform: none; }
-.wa-float { position: fixed; right: 20px; bottom: 24px; width: 56px; height: 56px; border-radius: 50%; background: #25d366; display: grid; place-items: center; box-shadow: 0 12px 28px -6px rgba(37, 211, 102, .55); z-index: 60; transition: transform .2s; }
-.wa-float:hover { transform: scale(1.06); }
 
 /* Reveal */
 .reveal { opacity: 0; transform: translateY(24px); transition: opacity .7s ease, transform .7s ease; }
@@ -314,13 +307,13 @@ h2 { font-size: clamp(1.9rem, 3.4vw, 2.8rem); font-weight: 800; }
   .fc-2 { right: 0; }
   .fc-2 .fc-ico { display: none; }
   .float-tag { font-size: .72rem; padding: 6px 11px; }
-  .contact-card { padding: 28px 20px; }
   .cta-section { padding-bottom: 80px; }
   .cta-box { padding: 36px 24px; }
   .cta-actions, .cta-actions .btn { width: 100%; }
   .faq details { padding: 0 18px; }
   .footer-inner { grid-template-columns: 1fr; }
-  .to-top { right: 24px; bottom: 92px; }
+  .to-top { right: 16px; bottom: 16px; }
+  .contact-list { padding: 22px 16px; }
 }
 
 /* Skip link */
