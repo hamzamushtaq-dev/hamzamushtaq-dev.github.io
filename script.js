@@ -57,24 +57,4 @@ if ('IntersectionObserver' in window) {
   revealEls.forEach(el => el.classList.add('in'));
 }
 
-// Contact form: send via WhatsApp or email
-const form = document.getElementById('contactForm');
-const formError = document.getElementById('formError');
-form.addEventListener('submit', e => {
-  e.preventDefault();
-  const via = e.submitter ? e.submitter.dataset.via : 'whatsapp';
-  const d = Object.fromEntries(new FormData(form));
-  if (!d.name.trim() || !d.message.trim()) {
-    formError.textContent = 'Please add your name and a few details.';
-    return;
-  }
-  formError.textContent = '';
-  const text = `Hi Hamza,\n\nName: ${d.name}${d.email ? `\nEmail: ${d.email}` : ''}\nRegarding: ${d.type}\n\n${d.message}`;
-  if (via === 'email') {
-    window.location.href = `mailto:hm136890@gmail.com?subject=${encodeURIComponent(`Portfolio inquiry: ${d.type}`)}&body=${encodeURIComponent(text)}`;
-  } else {
-    window.open(`https://wa.me/923125705808?text=${encodeURIComponent(text)}`, '_blank', 'noopener');
-  }
-});
-
 document.getElementById('year').textContent = new Date().getFullYear();
