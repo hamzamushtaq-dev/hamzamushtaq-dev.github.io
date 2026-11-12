@@ -1,6 +1,6 @@
 # Hamza Mushtaq — Portfolio
 
-Personal portfolio website of Hamza Mushtaq, Senior WordPress & Shopify Developer.
+Personal portfolio website of Hamza Mushtaq, WordPress & Shopify Developer.
 
 Live: https://hamzamushtaq-dev.github.io/
 
